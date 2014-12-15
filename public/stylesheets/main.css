@@ -1,0 +1,30 @@
+.vernalis_bg_gradient{
+  	background: -webkit-linear-gradient(90deg, #be202e, red, #be202e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, #be202e, red, #be202e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, #be202e, red, #be202e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, #be202e, red, #be202e); /* Standard syntax (must be last) */	
+}
+
+html, body {margin: 0px;height: 100%;overflow: visible;}
+
+.page {width:100%;height:100%;}
+.page_template{width: 1024px;height: 100%;text-align: left;}
+
+.header{height: 10%;width: 100%;margin-top: 0px;float: left;}
+.logo{height: 90%;width: 8%;margin: 7px;float: left;text-align: center;}
+.logoImage{padding-top: 5px}
+.searchBox{width: 28%;float: right;height: 100%}
+.login{width: 100%;float: right;height: 68%;text-align: right;}
+.search{width: 100%;float: right;height: 32%;text-align: right;}
+.search input {height: 26px;width: 100%;padding: 0 12px 0 25px;background: white url("/assets/images/search.png") 8px 6px no-repeat;border: 1px solid;border-color: #a8acbc #babdcc #c0c3d2;border-radius: 13px;-webkit-appearance: textfield;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.search input:focus {outline: 0;}
+input{font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 13px;color: #555860;}
+a:link {color: white;text-decoration: none;}a:visited {color: white;text-decoration: none;}a:hover {color: white;text-decoration: none;}a:active {color: white;text-decoration: none;}
+.menuBar{height: 4%;width: 100%;margin-top: 0px;float: left;}
+.vernalisSlider{height: 12%;width: 100%;margin-top: 0px;float: left;}
+.banner { position: relative; overflow: auto; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+.hrMessageBar{height: 3%;width: 100%;margin-top: 0px;float: left;}
+.mainContent{min-height: 75%;width: 100%;margin-top: 0px;float: left;}
+.footer{height: 3%;width: 100%;margin-top: 0px;float: left;}
